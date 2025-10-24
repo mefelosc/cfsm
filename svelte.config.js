@@ -1,12 +1,12 @@
 import adapter from '@sveltejs/adapter-static';
 
-const isProd = process.env.NODE_ENV === 'production';
-
-export default {
+const config = {
   kit: {
     adapter: adapter(),
-    paths: {
-      base: isProd ? '/cfsm' : ''
+    prerender: {
+      entries: ['*']
     }
   }
 };
+
+export default config;
