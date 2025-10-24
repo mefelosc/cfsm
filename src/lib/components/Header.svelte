@@ -3,7 +3,7 @@
   let open = false;
   import { onMount } from 'svelte'
   import { themeChange } from 'theme-change'
-
+  import { base } from '$app/paths';
 // NOTE: the element that is using one of the theme attributes must be in the DOM on mount
   onMount(() => {
     themeChange(false)
@@ -27,7 +27,7 @@
           <li><a href="#about" on:click={() => open = false} class="block px-4 py-2 text-base-content btn btn-lg btn-ghost ">Sobre</a></li>
           <li><a href="#projects" on:click={() => open = false} class="block px-4 py-2 text-base-content btn btn-lg btn-ghost">Projetos</a></li>
           <li><a href="#skills" on:click={() => open = false} class="block px-4 py-2 text-base-content btn btn-lg btn-ghost">Stack</a></li>
-          <li><a href="/cv2025.pdf" target="_blank" on:click={() => open = false} class="block px-4 py-2 text-base-content btn btn-lg btn-ghost">Curriculum</a></li>
+          <li><a href="{base}/cv2025.pdf" target="_blank" on:click={() => open = false} class="block px-4 py-2 text-base-content btn btn-lg btn-ghost">Curriculum</a></li>
    
           <label class="flex cursor-pointer gap-2 color-gray-500 dark:text-gray-400 m-2">
             <svg
