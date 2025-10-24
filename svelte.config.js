@@ -10,7 +10,7 @@ const base = dev ? '' : (process.env.BASE_PATH || (repo ? `/${repo}` : ''));
 const config = {
     preprocess: vitePreprocess(),
   kit: {
-    paths: { base },
+    paths: { base: process.env.NODE_ENV === 'production' ? '/cfsm' : '' },
     adapter: adapter({
       pages: 'build',   // onde os HTML ficam
       assets: 'build',  // onde JS/CSS vão
