@@ -1,7 +1,7 @@
 <script>
   import "../app.css"; // importa Tailwind + fonte
-  export const prerender = true;
-  
+
+
 </script>
 
 <div class="bg-base-200">
