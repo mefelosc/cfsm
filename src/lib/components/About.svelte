@@ -1,6 +1,6 @@
 <div id="about" class="flex flex-col items-left space-y-4 py-20 ml-24">
   <img src="/me.jpg" alt="Felipe" class="w-16 h-16 rounded-full" />
-  <h1 class="text-5xl font-bold text-left">Software Developer & <br>
+  <h1 class="text-5xl font-medium text-left">Software Developer & <br>
     Entusiasta de Tecnologia.</h1>
   <p class="text-gray-500 max-w-xl text-left">
     Olá! Sou Carlos Felipe, um desenvolvedor de software apaixonado por criar soluções inovadoras e eficientes. Com experiência em diversas tecnologias, estou sempre em busca de novos desafios que me permitam crescer profissionalmente e contribuir para projetos impactantes.

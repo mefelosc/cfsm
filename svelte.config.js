@@ -14,7 +14,7 @@ const config = {
     adapter: adapter({
       pages: 'build',   // onde os HTML ficam
       assets: 'build',  // onde JS/CSS vão
-      fallback: 'index.html',    // ou 'index.html' se precisar SPA fallback
+      fallback: 'app.html',    // ou 'index.html' se precisar SPA fallback
     })
     }
 };
