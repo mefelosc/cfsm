@@ -8,7 +8,7 @@ Portfolio pessoal para apresentar projetos, habilidades e contato.
 
 Aplicação estática construída com SvelteKit (Svelte 5), Vite e TailwindCSS (com DaisyUI). O site é uma página única (SPA) composta por componentes Svelte e publicada como conteúdo estático via `@sveltejs/adapter-static`.
 
-## Stack e Principais Dependências
+## Stack / Principais Dependências
 
 - SvelteKit `^2.x` (Svelte `^5.x`)
 - Vite `^5.x`
