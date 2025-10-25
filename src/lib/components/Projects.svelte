@@ -14,7 +14,7 @@
         <h2 class="card-title">Black Jack</h2>
           <p>Jogo de cartas</p>
         <div class="card-actions justify-end">
-          <button class="btn btn-primary bg-gray-600 border-gray-600 shadow-md"><a href="https://github.com/mefelosc/blackjack-jogo" target="_blank" aria-label="Settings">Github</a></button>
+          <a href="https://github.com/mefelosc/blackjack-jogo" target="_blank" aria-label="Settings"><button class="btn btn-primary bg-gray-600 border-gray-600 shadow-md">Github</button></a>
         </div>  
       </div>
     </div>
@@ -28,7 +28,7 @@
         <h2 class="card-title">SenhaForte</h2>
           <p>Gerador de senhas fortes</p>
         <div class="card-actions justify-end">
-          <button class="btn btn-primary bg-gray-600 border-gray-600 shadow-md"><a href="https://github.com/mefelosc/SenhaForte" target="_blank" aria-label="Settings">Github</a></button>
+          <a href="https://github.com/mefelosc/SenhaForte" target="_blank" aria-label="Settings"><button class="btn btn-primary bg-gray-600 border-gray-600 shadow-md">Github</button></a>
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@
         <h2 class="card-title">MyLeads</h2>
           <p>Extênsão para o navegador que salva abas e URLs</p>
         <div class="card-actions justify-end">
-          <button class="btn btn-primary bg-gray-600 border-gray-600 shadow-md"><a href="https://github.com/mefelosc/myLeads" target="_blank" aria-label="Settings">Github</a></button>
+          <a href="https://github.com/mefelosc/myLeads" target="_blank" aria-label="Settings"><button class="btn btn-primary bg-gray-600 border-gray-600 shadow-md">Github</button></a>
         </div>
       </div>
     </div>
