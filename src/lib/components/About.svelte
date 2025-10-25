@@ -11,7 +11,7 @@
 
     <div id="socials" class="flex space-x-4">
 
-    <a id="LinkedIn" class="transform transition-transform duration-100 hover:scale-130" href="https://www.linkedin.com/in/carlos-felipe-sm/" target="_blank" aria-label="Settings">
+    <a id="LinkedIn" class="transform transition-transform duration-100 hover:scale-130" href="https://www.linkedin.com/in/carlos-felipe-s-m/" target="_blank" aria-label="Settings">
       <span class="[&>svg]:h-8 [&>svg]:w-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@
       </span>
     </a>
 
-    <a id="GitHub" class="transform transition-transform duration-100 hover:scale-130" target="_blank" href="https://github.com/mefelosc">
+    <a id="GitHub" class="transform transition-transform duration-100 hover:scale-130"  href="https://github.com/mefelosc " target="_blank" aria-label="Settings">
       <span class="[&>svg]:h-8 [&>svg]:w-8">
         <svg
     xmlns="http://www.w3.org/2000/svg"
