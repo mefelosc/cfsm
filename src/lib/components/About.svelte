@@ -4,7 +4,7 @@
 
 <div id="about" class="flex flex-col items-left space-y-4 py-20 ml-24">
 
-  <div class="flex items-center space-x-4 flex-row"><img src="{base}/me.jpg" alt="Carlos Felipe" class="w-16 h-16 rounded-full" /><h1 class="text-5xl font-bold text-left homemade-apple-regular">Carlos Felipe Silva Melo</h1></div>
+  <div class="flex items-center space-x-6 flex-row"><img src="{base}/me.jpg" alt="Carlos Felipe" class="w-16 h-16 rounded-full" /><h1 class="text-3xl font-bold text-left homemade-apple-regular">Carlos Felipe Silva Melo</h1></div>
 
   <h1 class="text-5xl font-bold text-left">Software Developer & <br>
     Entusiasta de Tecnologia.</h1>
