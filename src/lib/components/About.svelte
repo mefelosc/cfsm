@@ -2,8 +2,10 @@
   import { base } from '$app/paths';
 </script>
 
-<div id="about" class="flex flex-col items-left space-y-4 py-20 ml-24"><h1 class="text-5xl font-bold text-left homemade-apple-regular">Carlos Felipe Silva Melo</h1>
-  <img src="{base}/me.jpg" alt="Carlos Felipe" class="w-16 h-16 rounded-full" />
+<div id="about" class="flex flex-col items-left space-y-4 py-20 ml-24">
+
+  <div class="flex items-center space-x-4 flex-row"><img src="{base}/me.jpg" alt="Carlos Felipe" class="w-16 h-16 rounded-full" /><h1 class="text-5xl font-bold text-left homemade-apple-regular">Carlos Felipe Silva Melo</h1></div>
+
   <h1 class="text-5xl font-bold text-left">Software Developer & <br>
     Entusiasta de Tecnologia.</h1>
   <p class="text-gray-500 max-w-xl text-left">
