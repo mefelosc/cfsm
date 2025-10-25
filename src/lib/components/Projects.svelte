@@ -40,7 +40,7 @@
       </figure>
       <div class="card-body">
         <h2 class="card-title">MyLeads</h2>
-          <p>Extênsão para o navegador que salva abas e URLs</p>
+          <p>Extensão que salva abas e URLs</p>
         <div class="card-actions justify-end">
           <a href="https://github.com/mefelosc/myLeads" target="_blank" aria-label="Settings"><button class="btn btn-primary bg-gray-600 border-gray-600 shadow-md">Github</button></a>
         </div>
