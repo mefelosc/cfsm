@@ -1,19 +1,18 @@
 <script>
   import { base } from '$app/paths';
 </script>
-
-<div id="about" class="flex flex-col items-left space-y-4 py-20 ml-24">
-
-  <div class="flex items-center space-x-6 flex-row"><img src="{base}/me.jpg" alt="Carlos Felipe" class="w-16 h-16 rounded-full" /><h1 class="text-3xl font-bold text-left homemade-apple-regular">Carlos Felipe Silva Melo</h1></div>
-
-  <h1 class="text-5xl font-bold text-left">Software Developer & <br>
+ 
+<div id="about" class="flex flex-col items-start space-y-4 py-16 px-6 md:px-24">
+  <div class="flex items-center space-x-6 flex-row">
+    <img src="{base}/me.jpg" alt="Carlos Felipe" class="w-16 h-16 rounded-full" />
+    <h1 class="text-3xl font-bold text-left homemade-apple-regular">Carlos Felipe Silva Melo</h1>
+  </div>
+  <h1 class="text-5xl font-bold text-left">Software Developer & <br />
     Entusiasta de Tecnologia.</h1>
   <p class="text-gray-500 max-w-xl text-left">
     Olá! Sou Carlos Felipe, um desenvolvedor de software apaixonado por criar soluções inovadoras e eficientes. Com experiência em diversas tecnologias, estou sempre em busca de novos desafios que me permitam crescer profissionalmente e contribuir para projetos impactantes.
   </p>
-
-    <div id="socials" class="flex space-x-4">
-
+  <div id="socials" class="flex space-x-4 self-start md:self-auto">
     <a id="LinkedIn" class="transform transition-transform duration-100 hover:scale-130" href="https://www.linkedin.com/in/carlos-felipe-s-m/" target="_blank" aria-label="Settings">
       <span class="[&>svg]:h-8 [&>svg]:w-8">
         <svg
@@ -62,4 +61,3 @@
 
     </div>
 </div>
-
