@@ -8,13 +8,13 @@
       <figure>
         <img
           src="{base}/blackjack.png"
-      alt="Black Jack" />
+      alt="Black Jack">
       </figure>
       <div class="card-body">
         <h2 class="card-title">Black Jack</h2>
           <p>Jogo de cartas</p>
         <div class="card-actions justify-end">
-          <a href="https://github.com/mefelosc/blackjack-jogo" target="_blank" aria-label="Settings"><button class="btn btn-primary bg-gray-600 border-gray-600 shadow-md">Github</button></a>
+          <a class="btn btn-primary bg-gray-600 border-gray-600 shadow-md" href="https://github.com/mefelosc/blackjack-jogo" target="_blank" aria-label="Settings">Github</a>
         </div>  
       </div>
     </div>
@@ -22,13 +22,13 @@
       <figure>
         <img
           src="{base}/senhas-fortes.png"
-      alt="Senhas Fortes" />
+      alt="Senhas Fortes">
       </figure>
       <div class="card-body">
         <h2 class="card-title">SenhaForte</h2>
           <p>Gerador de senhas fortes</p>
         <div class="card-actions justify-end">
-          <a href="https://github.com/mefelosc/SenhaForte" target="_blank" aria-label="Settings"><button class="btn btn-primary bg-gray-600 border-gray-600 shadow-md">Github</button></a>
+          <a class="btn btn-primary bg-gray-600 border-gray-600 shadow-md" href="https://github.com/mefelosc/SenhaForte" target="_blank" aria-label="Settings">Github</a>
         </div>
       </div>
     </div>
@@ -36,13 +36,13 @@
       <figure>
         <img
           src="{base}/salveabas.png"
-      alt="SalveAbas" />
+      alt="SalveAbas">
       </figure>
       <div class="card-body">
         <h2 class="card-title">MyLeads</h2>
           <p>Extensão que salva abas e URLs</p>
         <div class="card-actions justify-end">
-          <a href="https://github.com/mefelosc/myLeads" target="_blank" aria-label="Settings"><button class="btn btn-primary bg-gray-600 border-gray-600 shadow-md">Github</button></a>
+         <a class="btn btn-primary bg-gray-600 border-gray-600 shadow-md" href="https://github.com/mefelosc/myLeads" target="_blank" aria-label="Settings">Github</a>
         </div>
       </div>
     </div>
