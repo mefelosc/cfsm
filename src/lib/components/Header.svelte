@@ -94,7 +94,7 @@
             >
           </li>
 
-          <div class="flex cursor-pointer gap-2 color-gray-500 dark:text-gray-400 m-2">
+          <li class="flex cursor-pointer gap-2 color-gray-500 dark:text-gray-400 m-2">
             <!-- Sun -->
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +138,7 @@
                 d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
               ></path>
             </svg>
-          </div>
+          </li>
         </ul>
       </div>
     </nav>
