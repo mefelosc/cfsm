@@ -4,7 +4,7 @@
 <h1 class="text-4xl font-bold flex justify-left ml-25">Meus Projetos</h1>
 <div class="flex space-y-4 py-2">
   <section id="projects" class="flex flex-wrap justify-center h-full w-full p-10 space-y-4 space-x-4">
-    <div class="card bg-base-200 w-84 h-84 shadow-sm">
+    <div class="card bg-base-300 w-84 h-84 shadow-sm">
       <figure>
         <img
           src="{base}/blackjack.png"
@@ -18,7 +18,7 @@
         </div>  
       </div>
     </div>
-    <div class="card bg-base-200 w-84 h-84 shadow-sm">
+    <div class="card bg-base-300 w-84 h-84 shadow-sm">
       <figure>
         <img
           src="{base}/senhas-fortes.png" alt="Senhas Fortes">
@@ -31,7 +31,7 @@
         </div>
       </div>
     </div>
-    <div class="card bg-base-200 w-84 h-84 shadow-sm">
+    <div class="card bg-base-300 w-84 h-84 shadow-sm">
       <figure>
         <img
           src="{base}/salveabas.png"
