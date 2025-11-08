@@ -9,7 +9,7 @@
   </div>
   <h1 class="text-5xl font-bold text-left">Software Developer & <br>
     Entusiasta de Tecnologia.</h1>
-  <p class="text-gray-500 max-w-xl text-left">
+  <p class="max-w-xl text-left">
     Olá! Sou Carlos Felipe, um desenvolvedor de software apaixonado por criar soluções inovadoras e eficientes. Com experiência em diversas tecnologias, estou sempre em busca de novos desafios que me permitam crescer profissionalmente e contribuir para projetos impactantes.
   </p>
   <div id="socials" class="flex space-x-4 self-start md:self-auto">
