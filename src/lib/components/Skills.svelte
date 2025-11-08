@@ -8,7 +8,7 @@
     <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 space-y-10 ">
         <div class="grid gap-6 md:grid-cols-3">
             <!-- Frontend -->
-            <div class="card bg-base-200 shadow-sm">
+            <div class="card bg-base-300 shadow-sm">
                 <div class="card-body">
                     <h3 class="card-title">Frontend</h3>
                     <ul class="space-y-5 pt-4">
@@ -26,7 +26,7 @@
             </div>
 
             <!-- Backend -->
-            <div class="card bg-base-200 shadow-sm">
+            <div class="card bg-base-300 shadow-sm">
                 <div class="card-body">
                     <h3 class="card-title">Backend</h3>
                     <ul class="space-y-5 pt-4">
@@ -44,7 +44,7 @@
             </div>
 
             <!-- DevOps -->
-            <div class="card bg-base-200 shadow-sm">
+            <div class="card bg-base-300 shadow-sm">
                 <div class="card-body">
                     <h3 class="card-title">DevOps</h3>
                     <ul class="space-y-5 pt-4">
