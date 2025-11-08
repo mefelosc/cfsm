@@ -1,5 +1,5 @@
 <script> // Skills, frontend, backend and devops, arrays of strings
-  export let frontend = ['SvelteKit', 'JavaScript', 'TailwindCSS', 'HTML', 'CSS'];
+  export let frontend = ['SvelteKit', 'JavaScript', 'TailwindCSS', 'HTML'];
   export let backend = ['Node.js', 'PostgreSQL'];
   export let devops = ['Docker', 'CI/CD', 'AWS'];
 </script>
