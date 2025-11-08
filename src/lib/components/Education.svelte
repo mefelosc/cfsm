@@ -28,12 +28,12 @@
     <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 space-y-10">
         <header class="space-y-3">
             <h2 class="text-3xl font-bold tracking-tight">Educação</h2>
-            <p class="text-base text-base-content/70">{background}</p>
+            <p class="text-base text-base-content/100">{background}</p>
         </header>
 
         <div class="grid gap-6 md:grid-cols-2">
             <!-- Graduação -->
-            <div class="card bg-base-200 shadow-sm">
+            <div class="card bg-base-300 shadow-sm">
                 <div class="card-body">
                     <h3 class="card-title">Graduação</h3>
                     <ul class="space-y-5">
@@ -61,7 +61,7 @@
             </div>
 
             <!-- Cursos -->
-            <div class="card bg-base-200 shadow-sm">
+            <div class="card bg-base-300 shadow-sm">
                 <div class="card-body">
                     <h3 class="card-title">Cursos</h3>
                     <ul class="space-y-4">
