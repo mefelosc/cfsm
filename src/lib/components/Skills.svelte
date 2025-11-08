@@ -1,7 +1,7 @@
 <script> // Skills, frontend, backend and devops, arrays of strings
-  export let frontend = ['SvelteKit', 'TypeScript', 'JavaScript', 'TailwindCSS', 'HTML', 'CSS'];
-  export let backend = ['Node.js', 'Express', 'MongoDB', 'PostgreSQL'];
-  export let devops = ['Docker', 'Kubernetes', 'CI/CD', 'AWS'];
+  export let frontend = ['SvelteKit', 'JavaScript', 'TailwindCSS', 'HTML', 'CSS'];
+  export let backend = ['Node.js', 'PostgreSQL'];
+  export let devops = ['Docker', 'CI/CD', 'AWS'];
 </script>
 <h1 class="text-4xl font-bold flex justify-left ml-25 mt-25">Minha Stack</h1>
 <section id="skills" class="py-16 lg:py-20">

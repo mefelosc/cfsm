@@ -21,8 +21,7 @@
     <div class="card bg-base-200 w-84 h-84 shadow-sm">
       <figure>
         <img
-          src="{base}/senhas-fortes.png"
-      alt="Senhas Fortes">
+          src="{base}/senhas-fortes.png" alt="Senhas Fortes">
       </figure>
       <div class="card-body">
         <h2 class="card-title">SenhaForte</h2>
