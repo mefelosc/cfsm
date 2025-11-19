@@ -24,7 +24,7 @@
 
 </script>
 
-<section id="education" class="py-16 lg:py-20">
+<section id="education" class="py-16 lg:py-16">
     <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 space-y-10">
         <header class="space-y-3">
             <h2 class="text-3xl font-bold tracking-tight">Educação</h2>
