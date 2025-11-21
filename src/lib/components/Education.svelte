@@ -16,9 +16,8 @@
 
     export let courses = [
         { title: "Full Stack Path", provider: "Scrimba", hours: "108h", year: 2025 },
-        { title: "CS50: Introdução à Ciência da Computação", provider: "HarvardX", hours: "240h", year: 2024 },
-        { title: "Computer Science 101", provider: "Stanford - EDX", hours: "20h", year: 2023 }
-       
+        { title: "Fullstack to Backend", provider: "FrontendMasters", hours: "45h", year: 2025 },
+        { title: "CS50: Introdução à Ciência da Computação", provider: "HarvardX", hours: "240h", year: 2024 }
     ];
 
 
@@ -81,8 +80,6 @@
                 </div>
             </div>
         </div>
-
-       
     </div>
 </section>
 <div class="divider"></div>
