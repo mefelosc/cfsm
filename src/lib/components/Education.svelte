@@ -1,7 +1,7 @@
 <script>
     // Conteúdo editável
     export let background =
-        "Resumo do meu percurso acadêmico, áreas de interesse e objetivos profissionais.";
+        "Resumo do meu percurso acadêmico, cursos e certificações.";
 
     export let education = [
         {
@@ -10,7 +10,7 @@
             period: "2023 — 2026",
             location: "Uberlândia, MG, Brasil",
             details:
-                "Cursando bacharelado com foco em programação, estruturas de dados, algoritmos, engenharia de software, banco de dados, redes de computadores, inteligência artificial e desenvolvimento web. Participando de projetos práticos que aplicam conceitos teóricos em soluções reais de software."
+                "Cursando bacharelado com foco em programação, estruturas de dados, algoritmos, engenharia de software, banco de dados, redes de computadores, inteligência artificial e desenvolvimento. Participando de projetos práticos que aplicam conceitos teóricos em soluções reais de software."
         }
     ];
 
