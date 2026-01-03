@@ -1,3 +1,10 @@
-<footer class="flex flex-col items-center p-10 self-center bg-base-100 shadow-sm ">
-  <p>&copy; Feito com ❤️ por Carlos Felipe S. M. </p>
+<footer
+  class="footer footer-center p-10 bg-base-100 text-base-content border-t border-base-content/5 mt-20"
+>
+  <aside>
+    <p class="font-light text-sm opacity-60">
+      &copy; {new Date().getFullYear()} Carlos Felipe S. M. <br />
+      Feito com SvelteKit & TailwindCSS
+    </p>
+  </aside>
 </footer>

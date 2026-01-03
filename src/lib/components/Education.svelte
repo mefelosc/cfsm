@@ -1,85 +1,78 @@
 <script>
-    // Conteúdo editável
-    export let background =
-        "Resumo do meu percurso acadêmico, cursos e certificações.";
-
     export let education = [
         {
-            institution: "Universidade UniAmérica",
-            degree: "Bacharelado em Ciência da Computação",
-            period: "2023 — 2026",
-            location: "Uberlândia, MG, Brasil",
-            details:
-                "Cursando bacharelado com foco em programação, estruturas de dados, algoritmos, engenharia de software, banco de dados, redes de computadores, inteligência artificial e desenvolvimento. Participando de projetos práticos que aplicam conceitos teóricos em soluções reais de software."
-        }
+            year: "2027 (Planejado)",
+            degree: "Pós-graduação em Segurança da Informação",
+            institution: "Em breve",
+            description:
+                "Futura especialização planejada para aprofundar conhecimentos em cibersegurança, proteção de dados e arquitetura segura.",
+        },
+        {
+            year: "2023 - 2026 (Dez)",
+            degree: "Ciência da Computação",
+            institution: "UniAmérica Descomplica",
+            description:
+                "Bacharelado abrangendo Algoritmos, Estrutura de Dados, Matemática Aplicada, POO, Design de Software, Programação Extrema, Cloud, IA Aplicada e Segurança da Informação. Rendimento: 9.9/10.",
+        },
+        {
+            year: "2024",
+            degree: "Fundamentos da Ciência da Computação (CS50x)",
+            institution: "HarvardX",
+            description:
+                "Curso intensivo cobrindo C, Arrays, Algoritmos, Memória, Estrutura de Dados, Python, IA, SQL, HTML, CSS, JavaScript, Flask e Cibersegurança.",
+        },
     ];
-
-    export let courses = [
-        { title: "Full Stack Path", provider: "Scrimba", hours: "108h", year: 2025 },
-        { title: "Fullstack to Backend", provider: "FrontendMasters", hours: "45h", year: 2025 },
-        { title: "CS50: Introdução à Ciência da Computação", provider: "HarvardX", hours: "240h", year: 2024 }
-    ];
-
-
 </script>
 
-<section id="education" class="py-16 lg:py-16">
-    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 space-y-10">
-        <header class="space-y-3">
-            <h2 class="text-3xl font-bold tracking-tight">Educação</h2>
-            <p class="text-base text-base-content/100">{background}</p>
-        </header>
+<section
+    id="education"
+    class="py-32 px-4 md:px-20 lg:px-32 bg-base-100 relative"
+>
+    <div class="max-w-4xl mx-auto">
+        <h2 class="text-4xl md:text-5xl font-bold mb-16 tracking-tighter">
+            Educação<span class="text-primary">.</span>
+        </h2>
 
-        <div class="grid gap-6 md:grid-cols-2">
-            <!-- Graduação -->
-            <div class="card bg-base-300 shadow-sm">
-                <div class="card-body">
-                    <h3 class="card-title">Graduação</h3>
-                    <ul class="space-y-5">
-                        {#each education as item}
-                            <li class="relative">
-                                <div class="flex items-start justify-between gap-3">
-                                    <div>
-                                        <p class="font-semibold">{item.degree}</p>
-                                        <p class="text-sm text-base-content/70">{item.institution}</p>
-                                    </div>
-                                    {#if item.period}
-                                        <span class="badge badge-outline whitespace-nowrap">{item.period}</span>
-                                    {/if}
-                                </div>
-                                {#if item.location}
-                                    <p class="mt-1 text-xs text-base-content/60">{item.location}</p>
-                                {/if}
-                                {#if item.details}
-                                    <p class="mt-3 text-sm leading-relaxed">{item.details}</p>
-                                {/if}
-                            </li>
-                        {/each}
-                    </ul>
-                </div>
-            </div>
+        <div class="relative space-y-12">
+            <!-- Vertical Line -->
+            <div
+                class="absolute left-[7px] top-2 bottom-2 w-0.5 bg-base-content/10 md:left-1/2 md:-ml-0.5"
+            ></div>
 
-            <!-- Cursos -->
-            <div class="card bg-base-300 shadow-sm">
-                <div class="card-body">
-                    <h3 class="card-title">Cursos</h3>
-                    <ul class="space-y-4">
-                        {#each courses as c}
-                            <li class="flex items-start justify-between gap-3">
-                                <div>
-                                    <p class="font-medium">{c.title}</p>
-                                    <p class="text-xs text-base-content/70">{c.provider}</p>
-                                </div>
-                                <div class="shrink-0 text-right space-x-2">
-                                    {#if c.hours}<span class="badge badge-ghost">{c.hours}</span>{/if}
-                                    {#if c.year}<span class="badge badge-outline">{c.year}</span>{/if}
-                                </div>
-                            </li>
-                        {/each}
-                    </ul>
+            {#each education as item, i}
+                <div
+                    class="relative flex flex-col md:flex-row gap-8 items-start group"
+                >
+                    <!-- Dot -->
+                    <div
+                        class="absolute left-0 top-1.5 w-4 h-4 rounded-full border-4 border-base-100 bg-base-content/30 group-hover:bg-primary group-hover:scale-125 transition-all duration-300 md:left-1/2 md:-translate-x-1/2 z-10"
+                    ></div>
+
+                    <!-- Left Side (Year) -->
+                    <div class="pl-10 md:pl-0 md:w-1/2 md:text-right md:pr-12">
+                        <span
+                            class="inline-block py-1 px-3 rounded-full bg-base-content/5 border border-base-content/10 text-sm font-mono font-medium text-primary mb-2"
+                        >
+                            {item.year}
+                        </span>
+                    </div>
+
+                    <!-- Right Side (Content) -->
+                    <div class="pl-10 md:pl-12 md:w-1/2">
+                        <h3
+                            class="text-xl font-bold group-hover:text-primary transition-colors"
+                        >
+                            {item.degree}
+                        </h3>
+                        <p class="text-base-content/60 font-medium mb-2">
+                            {item.institution}
+                        </p>
+                        <p class="text-base-content/70 text-sm leading-relaxed">
+                            {item.description}
+                        </p>
+                    </div>
                 </div>
-            </div>
+            {/each}
         </div>
     </div>
 </section>
-<div class="divider"></div>
