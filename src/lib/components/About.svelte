@@ -2,6 +2,7 @@
   import { base } from "$app/paths";
   import { fly, fade } from "svelte/transition";
   import { onMount } from "svelte";
+  import { t } from "$lib/i18n";
 
   let visible = false;
   onMount(() => (visible = true));
@@ -34,21 +35,20 @@
       <h1
         class="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter leading-[1.1] mb-6"
       >
-        <span class="block text-base-content">Estudante de</span>
-        <span class="block text-primary">Ciência da Computação</span>
+        <span class="block text-base-content">{$t.hero.role_prefix}</span>
+        <span class="block text-primary">{$t.hero.role_main}</span>
       </h1>
 
       <div class="space-y-4">
         <h2 class="text-xl md:text-2xl font-semibold text-base-content/80">
-          IT Support & Cybersecurity Enthusiast | Full Stack Skills
+          {$t.hero.roles_subtitle}
         </h2>
 
         <p
           class="text-lg md:text-xl max-w-2xl text-base-content/70 leading-relaxed font-light"
           in:fly={{ y: 20, duration: 1000, delay: 300 }}
         >
-          Transformando curiosidade em soluções seguras e eficientes. Foco em
-          desenvolvimento, infraestrutura e segurança da informação.
+          {$t.hero.description}
         </p>
       </div>
 

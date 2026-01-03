@@ -1,36 +1,14 @@
 <script>
-    export let education = [
-        {
-            year: "2027 (Planejado)",
-            degree: "Pós-graduação em Segurança da Informação",
-            institution: "Em breve",
-            description:
-                "Futura especialização planejada para aprofundar conhecimentos em cibersegurança, proteção de dados e arquitetura segura.",
-        },
-        {
-            year: "2023 - 2026 (Dez)",
-            degree: "Ciência da Computação",
-            institution: "UniAmérica Descomplica",
-            description:
-                "Bacharelado abrangendo Algoritmos, Estrutura de Dados, Matemática Aplicada, POO, Design de Software, Programação Extrema, Cloud, IA Aplicada e Segurança da Informação. Rendimento: 9.9/10.",
-        },
-        {
-            year: "2024",
-            degree: "Fundamentos da Ciência da Computação (CS50x)",
-            institution: "HarvardX",
-            description:
-                "Curso intensivo cobrindo C, Arrays, Algoritmos, Memória, Estrutura de Dados, Python, IA, SQL, HTML, CSS, JavaScript, Flask e Cibersegurança.",
-        },
-    ];
+    import { base } from "$app/paths";
+    import { t } from "$lib/i18n";
+
+    $: education = $t.education.items;
 </script>
 
-<section
-    id="education"
-    class="py-32 px-4 md:px-20 lg:px-32 bg-base-100 relative"
->
+<section id="education" class="py-32 px-4 md:px-20 lg:px-32 relative">
     <div class="max-w-4xl mx-auto">
         <h2 class="text-4xl md:text-5xl font-bold mb-16 tracking-tighter">
-            Educação<span class="text-primary">.</span>
+            {$t.education.title}<span class="text-primary">.</span>
         </h2>
 
         <div class="relative space-y-12">

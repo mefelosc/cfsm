@@ -1,5 +1,6 @@
 <script>
     export let email = "cfsm.pj@gmail.com";
+    import { t } from "$lib/i18n";
 </script>
 
 <section
@@ -8,11 +9,10 @@
 >
     <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-4xl md:text-5xl font-bold mb-8 tracking-tighter">
-            Vamos Conversar<span class="text-primary">?</span>
+            {$t.contact.title}<span class="text-primary">?</span>
         </h2>
         <p class="text-xl text-base-content/60 mb-12 max-w-2xl mx-auto">
-            Estou sempre aberto a novas oportunidades e parcerias. Se você tem
-            um projeto em mente ou apenas quer dizer oi, mande uma mensagem!
+            {$t.contact.subtitle}
         </p>
 
         <a
@@ -33,7 +33,7 @@
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
             </svg>
-            Entrar em Contato
+            {$t.hero.contact_btn}
         </a>
 
         <div class="mt-16 flex justify-center gap-8">
