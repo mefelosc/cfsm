@@ -9,6 +9,7 @@ const translations = {
             projects: "Projetos",
             stack: "Stack",
             cv: "Curriculum",
+            cv_link: "curriculo-carlos-felipe-2026.pdf",
         },
         hero: {
             role_prefix: "Desenvolvedor",
@@ -98,6 +99,7 @@ const translations = {
             projects: "Projects",
             stack: "Stack",
             cv: "Resume",
+            cv_link: "curriculo-carlos-felipeEN-2026.pdf",
         },
         hero: {
             role_prefix: "Developer",

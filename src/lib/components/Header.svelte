@@ -105,7 +105,7 @@
         </li>
         <li>
           <a
-            href="{base}/cv2025.pdf"
+            href="{base}/{$t.nav.cv_link}"
             target="_blank"
             class="text-primary hover:text-primary/80 transition-colors hover:bg-transparent font-bold"
             >{$t.nav.cv}</a
@@ -172,7 +172,7 @@
           class="btn btn-ghost w-full justify-start text-lg">{$t.nav.stack}</a
         >
         <a
-          href="{base}/cv2025.pdf"
+          href="{base}/{$t.nav.cv_link}"
           target="_blank"
           on:click={() => (open = false)}
           class="btn btn-ghost w-full justify-start text-lg text-primary"
