@@ -8,7 +8,7 @@
         "React",
     ];
     export let backend = ["Node.js", "PostgreSQL", "Express", "Python"];
-    export let devops = ["Docker", "CI/CD", "AWS", "Git"];
+    export let devops = ["Docker", "CI/CD", "AWS", "Git", "Linux"];
 
     import { fly } from "svelte/transition";
     import { onMount } from "svelte";
