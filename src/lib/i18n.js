@@ -12,12 +12,12 @@ const translations = {
             cv_link: "curriculo-carlos-felipe-2026.pdf",
         },
         hero: {
-            role_prefix: "Desenvolvedor",
-            role_main: "Full Stack",
+            role_prefix: "Desenvolvedor ",
+            role_main: "de Software",
             roles_subtitle:
-                "Estudante de Ciência da Computação | Segurança & Suporte TI",
+                "Estudante de Ciência da Computação",
             description:
-                "Unindo desenvolvimento backend e frontend com uma base sólida em suporte e segurança. Criando soluções digitais que não apenas funcionam, mas protegem e performam.",
+                "Experiência em projetos acadêmicos e pessoais. Atualmente explorando os fundamentos de Segurança da Informação e Infraestrutura.",
             contact_btn: "Contato",
         },
         education: {
@@ -31,7 +31,7 @@ const translations = {
                         "Especialização em defesa cibernética, gestão de riscos e proteção de infraestruturas críticas.",
                 },
                 {
-                    year: "2026",
+                    year: "2023 - 2026",
                     degree: "Bacharelado em Ciência da Computação",
                     institution: "UniAmérica Descomplica",
                     description:
@@ -102,12 +102,12 @@ const translations = {
             cv_link: "curriculo-carlos-felipeEN-2026.pdf",
         },
         hero: {
-            role_prefix: "Developer",
-            role_main: "Full Stack",
+            role_prefix: "Software",
+            role_main: "Developer",
             roles_subtitle:
-                "CS Student | Security & IT Support",
+                "Bachelor in Computer Science",
             description:
-                "Merging backend and frontend development with a solid foundation in support and security. Building digital solutions that not only work but protect and perform.",
+                "Experience in academic and personal projects. Currently exploring the fundamentals of Information Security and Infrastructure.",
             contact_btn: "Contact",
         },
         education: {
@@ -121,7 +121,7 @@ const translations = {
                         "Specialization in cyber defense, risk management, and critical infrastructure protection.",
                 },
                 {
-                    year: "2026",
+                    year: "2023 - 2026",
                     degree: "Bachelor of Computer Science",
                     institution: "UniAmérica Descomplica",
                     description:
